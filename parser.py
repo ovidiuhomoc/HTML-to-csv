@@ -76,7 +76,7 @@ if __name__ == '__main__':
               ]
 
     for input in inputs:
-        with open(input['int'], 'r') as f:
+        with open(input['in'], 'r') as f:
             html_parent_component = f.read()
         # write the output to a CSV file with CSV DictWriter
         with open(input['out'], 'w', newline='') as csvfile:
